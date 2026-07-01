@@ -1,28 +1,13 @@
 # Viva-compras-
 Compras
 {
-  "cli": {
-    "version": ">= 16.0.0"
-  },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
-
     "preview": {
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
     },
-
-    "production": {
-      "autoIncrement": true
-    }
-  },
-
-  "submit": {
     "production": {}
   }
 }
